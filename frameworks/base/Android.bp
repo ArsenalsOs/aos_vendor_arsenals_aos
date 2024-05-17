@@ -1,0 +1,10 @@
+// Build the aos library.
+
+java_library {
+    name: "aos",
+    installable: true,
+    dxflags: ["--core-library"],
+    srcs: [
+        "**/*.java",
+    ],
+}
